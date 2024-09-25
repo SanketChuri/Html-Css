@@ -1,0 +1,112 @@
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header, nav, main, footer {
+    /* max-width: 800px;
+    margin: 0 auto; */
+    padding: 1em;
+}
+
+header {
+    text-align: center;
+    font-size: xx-large;
+    /* margin-bottom: 1em; */
+    background-size: cover;
+    background-position: center;
+    background-image:url('Gateway-of-India.jpg');
+}
+div{
+    font-size: x-small;
+    position: absolute;
+    right: 1%;
+    top: 37%;
+}
+nav{
+    position: static;
+    right: 25px;
+    background-color: #917470;
+    padding-left: 0px;
+    padding: 8px;
+}
+.navbar {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 0px;
+
+}
+
+.navbar > li {
+    position: relative;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.navbar a {
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+    color: #333;
+    background-color: #f2f2f2;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #f2f2f2;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-content li {
+    display: block;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+h1{
+    color:white;
+}
+h2, h3 {
+    color: #333;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+table, th, td {
+    border: 1px solid black;
+}
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+th {
+    background-color: #f2f2f2;
+}
+
+section {
+    margin: 2em;
+}
+
+footer {
+    text-align: center;
+    margin-top: 2em;
+    font-size: 0.9em;
+    color: #666;
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 0 1em;
+    }
+}
